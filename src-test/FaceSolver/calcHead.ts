@@ -1,6 +1,6 @@
+import { PI } from "../constants";
 import { Results } from "../Types";
 import Vector from "../utils/vector";
-import { PI } from "./../constants";
 
 /**
  * Calculate stable plane (triangle) from 4 face landmarks

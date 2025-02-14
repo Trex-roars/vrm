@@ -8,7 +8,7 @@
         "dist"
     ],
     "scripts": {
-        "dev": "vite docs",
+        "dev": "vite src",
         "prebuild": "npm run lint && npm run fmt && rimraf dist",
         "build": "vite build && npm run build:lib",
         "build:watch": "vite build --watch && npm run build:lib:watch",
@@ -60,5 +60,8 @@
     ],
     "author": "yeemachine",
     "license": "MIT",
-    "year": "2020-2021"
+    "year": "2020-2021",
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0"
+    }
 }

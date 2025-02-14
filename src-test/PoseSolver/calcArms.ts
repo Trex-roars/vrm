@@ -1,8 +1,7 @@
-import Vector from "../utils/vector";
-import { clamp } from "../utils/helpers";
 import { Results, Side } from "../Types";
-import { RIGHT, LEFT } from "./../constants";
-import { PI } from "./../constants";
+import { LEFT, PI, RIGHT } from "../constants";
+import { clamp } from "../utils/helpers";
+import Vector from "../utils/vector";
 
 /**
  * Calculates arm rotation as euler angles

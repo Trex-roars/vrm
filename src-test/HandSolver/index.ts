@@ -1,8 +1,7 @@
-import Vector from "../utils/vector";
+import { Results, Side, THand, THandUnsafe } from "../Types";
+import { LEFT, PI, RIGHT } from "../constants";
 import { clamp } from "../utils/helpers";
-import { Results, THand, THandUnsafe, Side } from "../Types";
-import { RIGHT, LEFT } from "./../constants";
-import { PI } from "./../constants";
+import Vector from "../utils/vector";
 
 /** Class representing hand solver. */
 export class HandSolver {

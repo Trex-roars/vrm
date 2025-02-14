@@ -1,7 +1,7 @@
-import Vector from "../utils/vector";
+import { Results, Side, XYZ } from "../Types";
+import { LEFT, RIGHT } from "../constants";
 import { clamp, remap } from "../utils/helpers";
-import { Results, XYZ, Side } from "../Types";
-import { RIGHT, LEFT } from "./../constants";
+import Vector from "../utils/vector";
 
 /**
  * Landmark points labeled for eye, brow, and pupils
@@ -164,14 +164,14 @@ export const stabilizeBlink = (
             blinkDiff >= blinkThresh && !isClosing && !isOpen
                 ? eye.l
                 : eye.r > eye.l
-                ? Vector.lerp(eye.r, eye.l, 0.95)
-                : Vector.lerp(eye.r, eye.l, 0.05),
+                    ? Vector.lerp(eye.r, eye.l, 0.95)
+                    : Vector.lerp(eye.r, eye.l, 0.05),
         r:
             blinkDiff >= blinkThresh && !isClosing && !isOpen
                 ? eye.r
                 : eye.r > eye.l
-                ? Vector.lerp(eye.r, eye.l, 0.95)
-                : Vector.lerp(eye.r, eye.l, 0.05),
+                    ? Vector.lerp(eye.r, eye.l, 0.95)
+                    : Vector.lerp(eye.r, eye.l, 0.05),
     };
 };
 

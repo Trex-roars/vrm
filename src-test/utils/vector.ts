@@ -1,5 +1,5 @@
-import { XYZ, AxisMap, EulerRotation } from "../Types";
-import { PI, TWO_PI } from "./../constants";
+import { AxisMap, EulerRotation, XYZ } from "../Types";
+import { PI, TWO_PI } from "../constants";
 
 /** Vector Math class. */
 export default class Vector {

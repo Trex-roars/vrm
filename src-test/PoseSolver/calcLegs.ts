@@ -1,9 +1,8 @@
-import Vector from "../utils/vector";
+import { Results, Side } from "../Types";
+import { LEFT, PI, RIGHT } from "../constants";
 import Euler from "../utils/euler";
 import { clamp } from "../utils/helpers";
-import { Results, Side } from "../Types";
-import { RIGHT, LEFT } from "./../constants";
-import { PI } from "./../constants";
+import Vector from "../utils/vector";
 
 export const offsets = {
     upperLeg: {

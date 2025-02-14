@@ -1,7 +1,7 @@
-import Vector from "../utils/vector";
+import { IHips, TFVectorPose, XYZ } from "../Types";
+import { PI } from "../constants";
 import { clamp, remap } from "../utils/helpers";
-import { IHips, XYZ, TFVectorPose } from "../Types";
-import { PI } from "./../constants";
+import Vector from "../utils/vector";
 
 /**
  * Calculates Hip rotation and world position

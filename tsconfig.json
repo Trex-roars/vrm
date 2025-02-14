@@ -23,6 +23,6 @@
         "dist"
     ],
     "include": [
-        "src/**/*"
-, "docs"    ]
+        "src-test/**/*"
+, "src"    ]
 }
