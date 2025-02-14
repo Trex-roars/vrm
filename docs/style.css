@@ -52,6 +52,8 @@ video {
 }
 body {
     margin: 0;
+    background-image: url("/models/back.png");
+    /* background-size: cover; */
 }
 canvas {
     display: block;
