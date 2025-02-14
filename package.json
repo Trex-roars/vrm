@@ -60,8 +60,5 @@
     ],
     "author": "yeemachine",
     "license": "MIT",
-    "year": "2020-2021",
-    "dependencies": {
-        "@google/generative-ai": "^0.21.0"
-    }
+    "year": "2020-2021"
 }
